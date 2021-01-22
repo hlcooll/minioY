@@ -3,8 +3,8 @@ from minio.error import S3Error
 from progress.prog import Progress
 
 minioClient = Minio('127.0.0.1:9000',
-                  access_key='hualei',
-                  secret_key='michael44',secure=False
+                  access_key='usename',
+                  secret_key='password',secure=False
                   )
 
 # Create bucket.
